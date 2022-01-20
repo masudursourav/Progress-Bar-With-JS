@@ -81,7 +81,11 @@ body{
 }
 button:disabled{
     background-color: gray;
+    cursor: not-allowed;
 }
 .btn:active{
     transform: scale(0.98);
+}
+.btn:focus{
+    outline: none;
 }
